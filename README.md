@@ -1,3 +1,8 @@
+idk
+
+
+old readme:
+
 # ETAGamer Website
 ## a really cool site i made for no reason
 
@@ -8,15 +13,5 @@ _Why did I make this?_
 
 _Is this README file just so things don't yell at me?_
   ~~Yes!~~
-
-_Did I use Modrinth to make this file because I'm lazy????_
-
-
-
-
-
-
-
-  ~~yeah~~
 
 **By ETAGamer / ETAModder**
