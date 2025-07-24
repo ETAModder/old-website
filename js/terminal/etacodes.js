@@ -1,0 +1,10 @@
+const eta_0B = "Terminal has shutdown for unknown reasons."
+const eta_1B = "Terminal has been manually shutdown by " + userName
+const eta_00 = userName + " has started ETAterminal."
+const eta_01 = "Boot Process has loaded."
+const eta_02 = "Kernel has initiated and loaded."
+const eta_03 = "RunTimeX has initiated and loaded."
+const eta_04 = "Assets have been pushed to Stack."
+const eta_05 = "Core system files have been loaded."
+const eta_06 = "Extra files have been loaded."
+const eta_07 = "Startup is finishing up."

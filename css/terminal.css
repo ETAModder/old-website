@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(14, 13, 22);
+    color: rgb(0, 87, 14);
+    font-size: 30px;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#commandInput {
+    color-scheme: dark;
+    border-color: rgb(14, 13, 22);
+    border: 0px;
+    color: rgb(0, 87, 14);
+    background-color: rgb(14, 13, 22);
+}
+

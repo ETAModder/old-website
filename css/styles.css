@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(14, 13, 22);
+  color: rgb(0, 255, 128);
+  font-size: 32px;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#allLinks {
+  color: darkgreen;
+  font-size: 55px;
+}
+
+#terminalLikeCheck {
+  color-scheme: dark;
+  outline: dashed rgba(0, 255, 128, 0.575) 2px;
+}
+
+#terminalLikeCheck:hover {
+  color-scheme: dark;
+  outline: solid rgb(0, 255, 128) 2px;
+}
+
+#terminalLikeCheck:checked {
+  color-scheme: light;
+  outline: dotted rgb(0, 132, 255) 3px;
+}
+
+#terminalLink {
+  border: solid 5px;
+  border-style: dashed;
+  border-radius: 15px;
+  border-color:rgba(0, 255, 128, 0.575);
+}
+
+#terminalLink:hover {
+  border: solid 5px;
+  border-style: groove;
+  border-radius: 17px;
+  border-color: rgb(0, 255, 128);
+}
+
+#downloadButton {
+  background-color: darkslategray;
+  color: rgba(0, 255, 128, 0.575);
+  border: solid 2px;
+  border-style: dashed;
+  border-radius: 9px;
+  border-color: rgba(0, 255, 128, 0.575);
+}
+
+#downloadButton:hover {
+  color:rgb(0, 255, 128);
+  border: solid 3px;
+  border-style: groove;
+  border-radius: 10px;
+  border-color: rgb(0, 255, 128);
+}
+
+#notFoundImg {
+  width: 750px;
+}
+
+#couldntFindPageText {
+  font-size: medium;
+}

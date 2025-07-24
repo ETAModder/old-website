@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="ETAGamer">
+        <meta name="description" content="ETAGamer's Awesome site! Code Downloads!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="shortcut icon" href="../imgs/kc face.png" type="image/x-icon">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+        </style>
+        <script>
+            function downloadSourceCodeEtaBot() {
+              const link = document.createElement('a');
+              link.href = '../downloads/eta-bot.zip';
+              link.download = 'eta-bot.zip';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }
+            function downloadSourceCodeEtaSite() {
+              const link = document.createElement('a');
+              link.href = '../downloads/etagamer-site-v1.zip';
+              link.download = 'etagamer-site-v1.zip';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }
+        </script>
+        <title>ETAGamer Source Code</title>
+        <!--
+        _        _
+        @@      @@
+        @#      #@
+        @#      #@
+
+   *#@@_          _@@#*
+      #@@#_    _#@@#
+        ##@@@@@@##
+
+
+        Hello code-searchers, you will find nothing of use here.
+        This website is a sad, desolate place...
+
+        go away
+    -->
+    </head>
+    <body>
+        <div align="center" id="entireSourceCode">
+            <div id="topbar">
+                <p>[ <a href="../home.html">Home</a> ]</p>
+            </div>
+            <div id="sourceCodeDownloads">
+                <button id="downloadButton" onclick="downloadSourceCodeEtaBot()">ETAbot probably newest version</button>
+                <button id="downloadButton" onclick="downloadSourceCodeEtaSite()">ETAGamer Site probably newest version</button>
+            </div>
+        </div>
+    </body>
+</html>

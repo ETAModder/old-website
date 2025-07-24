@@ -1,0 +1,11 @@
+config:
+  target: 'http://127.0.0.1:3000'
+  phases:
+    - duration: 5
+      arrivalRate: 1  # Single user
+  processor: "./artilleryrnd.js"
+scenarios:
+  - flow:
+      - get:
+          url: "/"
+      - function: "randomDelay"
